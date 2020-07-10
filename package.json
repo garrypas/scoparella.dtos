@@ -1,0 +1,21 @@
+{
+  "name": "scoparella.dtos",
+  "version": "1.0.0",
+  "description": "Dtos for the Scoparella project",
+  "main": "",
+  "scripts": {
+    "build": "rimraf dist/ && tsc",
+    "build-dev": "rimraf dist/ && tsc",
+    "postinstall": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "rimraf": "^3.0.2",
+    "sinon": "^9.0.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  },
+  "types": "./index.d.ts"
+}
