@@ -5,8 +5,7 @@
   "main": "",
   "scripts": {
     "build": "rimraf dist/ && tsc",
-    "build-dev": "rimraf dist/ && tsc",
-    "postinstall": "npm run build"
+    "build-dev": "rimraf dist/ && tsc"
   },
   "author": "",
   "license": "ISC",
