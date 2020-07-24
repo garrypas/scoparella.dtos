@@ -14,4 +14,5 @@ export interface GameDto {
     scoreboard: ScoreboardDto;
     roundsPlayed: number;
     moves: MoveLogItemDto[];
+    status: string;
 }
